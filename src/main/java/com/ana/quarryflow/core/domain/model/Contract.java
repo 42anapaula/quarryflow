@@ -14,6 +14,9 @@ public class Contract {
     private LocalDateTime startDate;
     private LocalDateTime endDate;
 
+    public Contract() {
+    }
+
     public Contract(Client client, BigDecimal creditLimit, BigDecimal availableBalance, LocalDateTime startDate, LocalDateTime endDate) {
         this.client = client;
         this.creditLimit = creditLimit;

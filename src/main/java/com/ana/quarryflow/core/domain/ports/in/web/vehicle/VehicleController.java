@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 
 @RestController
-@RequestMapping("/api/v1/vehicles")
+@RequestMapping("/api/v1/vehicle")
 public class VehicleController {
 
     private final FindVehicleByPlateUseCase findVehicleByPlateUseCase;

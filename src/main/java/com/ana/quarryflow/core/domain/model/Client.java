@@ -11,6 +11,9 @@ public class Client {
     private boolean active;
     private LocalDateTime createdAt;
 
+    public Client() {
+    }
+
     public Client(String document, String socialName, LocalDateTime createdAt) {
         this(document, socialName, true, createdAt);
     }
